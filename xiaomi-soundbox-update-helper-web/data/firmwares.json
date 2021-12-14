@@ -1,0 +1,218 @@
+[{
+		"name": "小米Pro8",
+		"hardware": "X08A",
+		"type": "稳定版",
+		"version": "1.28.102",
+		"link": "https://cdn.cnbj1.fds.api.mi-img.com/xiaoqiang/rom/x08a/payload_1.28.102_7ec70.bin",
+		"extra": "{\"FILE_HASH\":\"XD4igHL6Esk54fS3KggMDQJlsiFhKUg8zDfbF/f1HSk=\",\"FILE_SIZE\":\"687729153\",\"METADATA_HASH\":\"BvjKD55DKLsd4XiME/zi5U57no5bSDW8SJRHSGFvWyA=\",\"METADATA_SIZE\":\"72277\"}",
+		"hash": "681c0aa0afe44a65004b69bb4b87ec70"
+	},
+	{
+		"name": "小米Pro8",
+		"hardware": "X08A",
+		"type": "测试版整包",
+		"version": "1.27.6",
+		"link": "https://cdn.cnbj1.fds.api.mi-img.com/xiaoqiang/rom/x08a/payload_1.27.6_8d092.bin",
+		"extra": "{\"FILE_HASH\": \"5/JONlOZmlGiDKDmrRCl0RoC5Gyf06p+aK3eq1MsqlM=\", \"FILE_SIZE\": \"771123929\", \"METADATA_HASH\": \"V6yUq/Jf+BWmL43lb4xe+Iyy9mCpSuMp7xo0NvZMh8E=\", \"METADATA_SIZE\": \"72409\"}",
+		"hash": "5070de6522c11d10aeaa1d7366d8d092"
+	},
+	{
+		"name": "小米Pro8",
+		"hardware": "X08A",
+		"type": "测试版整包",
+		"version": "2.0.9",
+		"link": "https://cdn.cnbj1.fds.api.mi-img.com/xiaoqiang/rom/x08a/payload_2.0.9_14ece.bin",
+		"extra": "{\"FILE_HASH\":\"94EuyNSN7hkpZcJ/NgDz3KBOouKHu3jRMxOmDAe9O2c=\",\"FILE_SIZE\":\"776983315\",\"METADATA_HASH\":\"AZpHsluj7o2pbpwPVZF4l3JzTu3AMxohw0ayppMDem8=\",\"METADATA_SIZE\":\"72430\"}",
+		"hash": "148cbd252ee69608f20bb03835f14ece"
+	},
+	{
+		"name": "小米Pro8",
+		"hardware": "X08A",
+		"type": "测试版整包",
+		"version": "2.0.12",
+		"link": "https://cdn.cnbj1.fds.api.mi-img.com/xiaoqiang/rom/x08a/payload_2.0.12_e801f.bin",
+		"extra": "{\"FILE_HASH\":\"09xfWGDHwzU9vqsRcEEdMWuXQlyQxlWOczZcA+gvLOE=\",\"FILE_SIZE\":\"777576984\",\"METADATA_HASH\":\"Op1f1R65lJW9IFoqNw0FMYYm5H5pyI+MrPsumxXyazc=\",\"METADATA_SIZE\":\"72431\"}",
+		"hash": "ad96b090f6b4e682d6af7f29249e801f"
+	},
+	{
+		"name": "Redmi8",
+		"hardware": "X08C",
+		"type": "稳定版",
+		"version": "1.28.102",
+		"link": "https://cdn.cnbj1.fds.api.mi-img.com/xiaoqiang/rom/x08c/payload_1.28.102_f8018.bin",
+		"extra": "{\"FILE_HASH\":\"g8ClruFOfGzYbauE4tUVuCWLeOQO4hph3yKkRuIWUCo=\",\"FILE_SIZE\":\"686452392\",\"METADATA_HASH\":\"/b2bkHHV1JGhTI8i/atw83h542Wx6kIfd8G5AQz3JSM=\",\"METADATA_SIZE\":\"72277\"}",
+		"hash": "2f70bb670cd052393292ad92438f8018"
+	},
+	{
+		"name": "Redmi8",
+		"hardware": "X08C",
+		"type": "测试版整包",
+		"version": "1.27.6",
+		"link": "https://cdn.cnbj1.fds.api.mi-img.com/xiaoqiang/rom/x08c/payload_1.27.6_37cbb.bin",
+		"hash": "8a8adbeaac970ae2a9b303e893737cbb",
+		"extra": "{\"FILE_HASH\":\"tB7KQC1v6qyg8uf28Jfw1ThIfo4ebtaZ3k+36Sq5rBg=\",\"FILE_SIZE\":\"770019411\",\"METADATA_HASH\":\"AIh5DAUKej5LAopNj3jqaZu4LiDpk6iAiKGp5OUZWLA=\",\"METADATA_SIZE\":\"72412\"}"
+	},
+	{
+		"name": "Redmi8",
+		"hardware": "X08C",
+		"type": "测试版整包",
+		"version": "2.0.9",
+		"link": "https://cdn.cnbj1.fds.api.mi-img.com/xiaoqiang/rom/x08c/payload_2.0.9_89b4d.bin",
+		"extra": "{\"FILE_HASH\":\"a48eajzJ21jfBKt+mnWcjALUrp58JNTuQHapCsKBdDY=\",\"FILE_SIZE\":\"776360490\",\"METADATA_HASH\":\"B1x97PMyrwHqXe+kQ5cjJUfG3GPNIXL08iThtYp+w+k=\",\"METADATA_SIZE\":\"72430\"}",
+		"hash": "c83207d068466dd87a462d8d03389b4d"
+	},
+	{
+		"name": "Redmi8",
+		"hardware": "X08C",
+		"type": "测试版整包",
+		"version": "2.0.12",
+		"link": "https://cdn.cnbj1.fds.api.mi-img.com/xiaoqiang/rom/x08c/payload_2.0.12_22f1f.bin",
+		"extra": "{\"FILE_HASH\":\"TPtNlZVfj+PwFCSfUr//QtNHqiQXVOog530N3uijiME=\",\"FILE_SIZE\":\"776908909\",\"METADATA_HASH\":\"S0z9im4ClOPbbavWyqBYg8/2H9f9IwVapukRG9FnMKo=\",\"METADATA_SIZE\":\"72431\"}",
+		"hash": "4864cdc9799800836873d322cc722f1f"
+	},
+	{
+		"name": "RedmiPro8",
+		"hardware": "X08E",
+		"type": "稳定版",
+		"version": "1.28.102",
+		"link": "https://cdn.cnbj1.fds.api.mi-img.com/xiaoqiang/rom/x08e/payload_1.28.102_b5437.bin",
+		"extra": "{\"FILE_HASH\":\"YnBb/rRBtTk7FdWXTZ/9nWry2k6vxdcZxUkpDqXyHlo=\",\"FILE_SIZE\":\"693570748\",\"METADATA_HASH\":\"6ECwJXFyAZgNqJjt+MbnZ69VuPfw6+NpI+/bi0nW/84=\",\"METADATA_SIZE\":\"51289\"}",
+		"hash": "20e76fc5e6ad87459c7bfe3cac1b5437"
+	},
+	{
+		"name": "RedmiPro8",
+		"hardware": "X08E",
+		"type": "测试版整包",
+		"version": "1.27.8",
+		"link": "https://cdn.cnbj1.fds.api.mi-img.com/xiaoqiang/rom/x08e/payload_1.27.8_73ed4.bin",
+		"extra": "{\"FILE_HASH\": \"ytoZdvpL4ftd/uuKGAwH8BQiSftZTeKBEAxGHM0oPm4=\", \"FILE_SIZE\": \"785113164\", \"METADATA_HASH\": \"BbwohJlCjiKQeDI2X2gUMcc79aKiy7YkxkYk170qo+c=\", \"METADATA_SIZE\": \"51441\"}",
+		"hash": "7d3136ac1ea3ba77c8de87dbebc73ed4"
+	},
+	{
+		"name": "RedmiPro8",
+		"hardware": "X08E",
+		"type": "测试版整包",
+		"version": "2.0.9",
+		"link": "https://cdn.cnbj1.fds.api.mi-img.com/xiaoqiang/rom/x08e/payload_2.0.9_153da.bin",
+		"extra": "{\"FILE_HASH\":\"n7ig22/UVuNPxMy/Aav9vh8uOx0A67zg0V3nE01tx2M=\",\"FILE_SIZE\":\"791208217\",\"METADATA_HASH\":\"pHn4FLhU7p+l3Fd6bvKKZHjl9+LoNKDktpGf4y5faV8=\",\"METADATA_SIZE\":\"51456\"}",
+		"hash": "77c0642b29fd458653f28162071153da"
+	},
+	{
+		"name": "RedmiPro8",
+		"hardware": "X08E",
+		"type": "测试版整包",
+		"version": "2.0.12",
+		"link": "https://cdn.cnbj1.fds.api.mi-img.com/xiaoqiang/rom/x08e/payload_2.0.12_e22ae.bin",
+		"extra": "{\"FILE_HASH\":\"C6RmDnDf6oIO/2IfQXOUbQ9wOoSp00BeViTdoGEDATo=\",\"FILE_SIZE\":\"791460679\",\"METADATA_HASH\":\"JTeA2Fo72JzTUcajX6AcQHuYmhqRXbn/eR1QUbothSE=\",\"METADATA_SIZE\":\"51457\"}",
+		"hash": "1c43f803d749b6190367090a264e22ae"
+	},
+	{
+		"name": "小米LX04",
+		"hardware": "LX04",
+		"type": "测试版整包",
+		"version": "2.33.41",
+		"link": "https://dl.teio.tk/MIRROR_CN/Xiaomi/Mico/OTA/LX04/Current/payload_2.33.41_e161d.bin",
+		"extra": "{\"FILE_HASH\":\"j7sskixYqekw6RMiRt9Y2XcccLzWP+eIqZFzwQUHndI=\",\"FILE_SIZE\":\"498945685\",\"METADATA_HASH\":\"gqDBlMhYRjD/dAW0U7I6vBIxkS0Ka227B4wUbBWm/0g=\",\"METADATA_SIZE\":\"33211\"}",
+		"hash": "8ed8bfd40f49eaae0dfe6755195e161d"
+	},
+	{
+		"name": "小米LX04",
+		"hardware": "LX04",
+		"type": "稳定版",
+		"version": "2.34.106",
+		"link": "https://cdn.cnbj1.fds.api.mi-img.com/xiaoqiang/rom/lx04/payload_2.34.106_bab3e.bin",
+		"extra": "{\"FILE_HASH\":\"Y+xetxa+yRAPN0ExdVHhw7ILmqdyAXkk/RM2aSgmuiE=\",\"FILE_SIZE\":\"448863673\",\"METADATA_HASH\":\"wYYDMDKKIBWYpGNFdtK126UL51Pe/2KWgX8uOMy4uvg=\",\"METADATA_SIZE\":\"33137\"}",
+		"hash": "a7d28dadbf0755d4c581b4103d6bab3e"
+	},
+	{
+		"name": "小爱音箱mini",
+		"hardware": "LX01",
+		"type": "开发版整包",
+		"version": "1.55.4",
+		"link": "https://cdn.cnbj1.fds.api.mi-img.com/xiaoqiang/rom/lx01/mico_firmware_b808f_1.55.4.bin",
+		"hash": "594240396ea3288ab86000926c5b808f",
+		"extra": "{\"cfe\":1000002,\"linux\":1,\"rootfs\":1,\"weight\":1,\"sqafs\":1,\"ramfs\":1}"
+	},
+	{
+		"name": "小米AI音箱",
+		"hardware": "S12",
+		"type": "开发版整包",
+		"version": "1.57.6",
+		"link": "https://cdn.cnbj1.fds.api.mi-img.com/xiaoqiang/rom/s12/mico_firmware_b1f7a_1.57.6.bin",
+		"hash": "2098ffa70e799204a303d7cf6c0b1f7a",
+		"extra": "{\"cfe\":1000002,\"linux\":1,\"rootfs\":1,\"weight\":1,\"sqafs\":1,\"ramfs\":1}"
+	},
+	{
+		"name": "小米AI音箱",
+		"hardware": "S12A",
+		"type": "开发版整包",
+		"version": "1.67.102",
+		"link": "https://cdn.cnbj1.fds.api.mi-img.com/xiaoqiang/rom/s12a/mico_all_a171c_1.67.102.bin",
+		"hash": "4a468864185b765c686093878a3a171c",
+		"releaseDate": "2021-09-03 21:08",
+		"extra": "{\"cfe\":1000002,\"linux\":1,\"rootfs\":1,\"weight\":1,\"sqafs\":1,\"ramfs\":1}"
+	},
+	{
+		"name": "小米小爱音箱",
+		"hardware": "L06A",
+		"type": "开发版整包",
+		"version": "1.77.6",
+		"link": "https://cdn.cnbj1.fds.api.mi-img.com/xiaoqiang/rom/lx06/mico_firmware_0395b_1.77.6.bin",
+		"hash": "977ff0c09a95a109a3d049ba9700395b",
+		"extra": "{\"cfe\":1000002,\"linux\":1,\"rootfs\":1,\"weight\":1,\"sqafs\":1,\"ramfs\":1}"
+	},
+	{
+		"name": "小爱音箱Pro",
+		"hardware": "LX06",
+		"type": "开发版整包",
+		"version": "1.77.6",
+		"link": "https://cdn.cnbj1.fds.api.mi-img.com/xiaoqiang/rom/lx06/mico_firmware_0395b_1.77.6.bin",
+		"hash": "977ff0c09a95a109a3d049ba9700395b",
+		"extra": "{\"cfe\":1000002,\"linux\":1,\"rootfs\":1,\"weight\":1,\"sqafs\":1,\"ramfs\":1}"
+	},
+	{
+		"name": "Redmi小爱音箱Play",
+		"hardware": "L07A",
+		"type": "开发版整包",
+		"version": "1.77.5",
+		"link": "https://cdn.cnbj1.fds.api.mi-img.com/xiaoqiang/rom/l07a/mico_skr_firmware_5c1cf_1.77.5.bin",
+		"hash": "c2dd84ab7a8ac003dd5a7eaff015c1cf",
+		"extra": "{\"cfe\":1000002,\"linux\":1,\"rootfs\":1,\"weight\":1,\"sqafs\":1,\"ramfs\":1}"
+	},
+	{
+		"name": "小爱音箱万能遥控版",
+		"hardware": "LX05A",
+		"type": "开发版整包",
+		"version": "1.69.30",
+		"link": "https://cdn.cnbj1.fds.api.mi-img.com/xiaoqiang/rom/lx05a/mico_firmware_f4aa1_1.69.30.bin",
+		"hash": "3f958dc490d0f67aa6945215648f4aa1",
+		"extra": "{\"cfe\":1000002,\"linux\":1,\"rootfs\":1,\"weight\":1,\"sqafs\":1,\"ramfs\":1}"
+	},
+	{
+		"name": "小爱音箱Play",
+		"hardware": "LX05",
+		"type": "开发版整包",
+		"version": "1.75.15",
+		"link": "https://cdn.cnbj1.fds.api.mi-img.com/xiaoqiang/rom/lx05/mico_skr_all_6bada_1.75.15.bin",
+		"hash": "d80760971f7e9db4a01d14b10916bada",
+		"extra": "{\"cfe\":1000002,\"linux\":1,\"rootfs\":1,\"weight\":1,\"sqafs\":1,\"ramfs\":1}"
+	},
+	{
+		"name": "小爱音箱Play增强版",
+		"hardware": "L05C",
+		"type": "开发版整包",
+		"version": "1.57.10",
+		"link": "https://cdn.cnbj1.fds.api.mi-img.com/xiaoqiang/rom/l05c/mico_c9729_1.57.10_nuttx.bin.lzma",
+		"hash": "98d90876bd1f34e8f418f224795c9729",
+		"extra": "{\"cfe\":1000002,\"ttsConfigMd5\":\"e95f924d757da92cbc33b9bf2aa61c6c\",\"ttsConfigUrl\":\"https://cdn.cnbj1.fds.api.mi-img.com/mico/ttsConfig/sound_20201224.tar.zip\",\"linux\":1,\"rootfs\":1,\"weight\":1,\"sqafs\":1,\"ramfs\":1}"
+	},
+	{
+		"name": "小爱音箱Art",
+		"hardware": "L09B",
+		"type": "开发版整包",
+		"version": "1.69.54",
+		"link": "https://cdn.cnbj1.fds.api.mi-img.com/xiaoqiang/rom/l09b/mico_firmware_8cdd1_1.69.54.bin",
+		"hash": "3d465a94ef7673b68576b7c1c8c8cdd1",
+		"extra": "{\"cfe\":1000002,\"linux\":1,\"rootfs\":1,\"weight\":1,\"sqafs\":1,\"ramfs\":1}"
+	}
+]

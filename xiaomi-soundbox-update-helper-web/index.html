@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <title>小米智能音响固件升级助手</title>
+    <meta charset="UTF-8" http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="./images/favicon.ico" mce_href="./images/favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div id="content">
+        <div id="nav">
+            <p id="nav-title" class="bg-info">小米智能音响固件升级助手</p>
+        </div>
+
+        <div class="modal fade" id="disclaimerModal" tabindex="-1" role="dialog" aria-labelledby="disclaimerModalLabel"
+            aria-hidden="true" data-backdrop="static">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title text-center" id="disclaimerModalLabel">免责声明</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>本项目根据开源项目修改，账号密码信息均直接与小米服务器进行通信，不存储在网站上。</p>
+                        <p>如有疑虑，请从 Github 下载代码后本地部署使用。</p>
+                        <p>如果继续使用，则表示已阅读上述声明。</p>
+                    </div>
+                    <div class="modal-footer" style="text-align: center">
+                        <button type="button" class="btn btn-success" data-dismiss="modal">我同意</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel panel-info">
+            <div class="panel-heading text-center">
+                <span style="font-weight: bold;">Step 1 - 登录账号</span>
+                <span style="display: none;" class="loginLabel label label-warning">登录成功 如果需要重新登录请刷新页面</span>
+            </div>
+            <div class="panel-body">
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                    <input id="username" type="text" class="form-control" placeholder="小米 ID">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                    <input id="password" type="password" class="form-control" placeholder="密码">
+                </div>
+                <p style="text-align: center;">
+                    <button id="loginBtn" class="btn btn-primary" onclick="login()">
+                        登录
+                    </button>
+                </p>
+            </div>
+        </div>
+
+        <div class="panel panel-info">
+            <div class="panel-heading text-center">
+                <span style="font-weight: bold;">Step 2 - 选择设备</span>
+            </div>
+            <div class="panel-body">
+                <table id="deviceTable" class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>设备名称</th>
+                            <th>设备序列号</th>
+                            <th>设备型号</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <p style="font-weight: bold;  text-align:center">Step 3 - 选择固件</p>
+                <p>
+                    稳定版：正常版本，无法安装第三方 App <br>
+                    测试版整包：可以安装第三方 App（首次推送请选择此类型固件） <br>
+                    增量包：需依次推送，如当前版本为 1.27.10，则选择推送版本为 1.27.11
+                </p>
+            </div>
+            <div class="panel-body" style="overflow-y:  auto;height: 300px;">
+                <table id="firmwareTable" class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>名称</th>
+                            <th>类型</th>
+                            <th>适用型号</th>
+                            <th>版本号</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>请先登录</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="panel panel-danger">
+            <div class="panel-heading text-center">
+                <span style="font-weight: bold;">Step 4 - 推送固件</span>
+            </div>
+            <div class="panel-body text-center">
+                <p style="font-weight: bold; color: #A94442;">
+                    请务必检查固件型号是否正确后再推送！<br>
+                    选错固件导致升级失败的，后果自负！
+                </p>
+                <button id="pushBtn" type="button" class="btn btn-danger">推送</button>
+                <p id="pushTips"></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="tipsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="TipsModalLabel">标题</h4>
+                </div>
+                <div class="modal-body">内容</div>
+                <div class="modal-footer">
+                    <button type="button" style="display: none;" class="TipsCloseBtn btn btn-default"
+                        data-dismiss="modal">关闭</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center">
+        <p id="disclaimerModalBtn" style="text-align: center;" onclick="showDisclaimer()"><a>免责声明</a></p>
+        <p>Github: <a href="https://github.com/Orainge/xiaomi-soundbox-update-helper">Orainge/xiaomi-soundbox-update-helper</a></p>
+    </div>
+
+    <script src="./js/jquery.md5.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
