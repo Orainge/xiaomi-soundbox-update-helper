@@ -37,8 +37,13 @@
 
         <div class="panel panel-info">
             <div class="panel-heading text-center">
-                <span style="font-weight: bold;">Step 1 - 登录账号</span>
-                <span style="display: none;" class="loginLabel label label-warning">登录成功 如果需要重新登录请刷新页面</span>
+                <div>
+                    <span style="font-weight: bold;">Step 1 - 登录账号</span>
+                </div>
+                <div style="display: none;" class="loginLabel">
+                    <div style="height: 5px;"></div>
+                    <p class="label label-warning">登录成功，如果需要重新登录请刷新页面</p>
+                </div>
             </div>
             <div class="panel-body">
                 <div class="input-group">
@@ -139,14 +144,17 @@
     </div>
 
     <div class="text-center">
-        <p id="disclaimerModalBtn" style="text-align: center;" onclick="showDisclaimer()"><a>免责声明</a></p>
-        <p>Github: <a href="https://github.com/Orainge/xiaomi-soundbox-update-helper">Orainge/xiaomi-soundbox-update-helper</a></p>
+        <div>
+        <p id="disclaimerModalBtn" style="text-align: center;"><a  onclick="showDisclaimer()">免责声明</a></p>
+        <p>Github: <a
+                href="https://github.com/Orainge/xiaomi-soundbox-update-helper">Orainge/xiaomi-soundbox-update-helper</a>
+        </p>
     </div>
 
-    <script src="./js/jquery.md5.js"></script>
     <script src="https://cdn.bootcdn.net/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <script src="https://cdn.bootcdn.net/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
     <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="./js/jquery.md5.js"></script>
     <script src="./js/index.js"></script>
 </body>
 
