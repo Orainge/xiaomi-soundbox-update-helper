@@ -63,8 +63,8 @@ function login() {
         return;
     }
 
-    console.log('Username: ' + username);
-    console.log('Password (MD5):' + passwordMd5);
+    // console.log('Username: ' + username);
+    // console.log('Password (MD5):' + passwordMd5);
 
     let loginbtn = $('#loginBtn');
     loginbtn.text('正在登录');
@@ -78,7 +78,7 @@ function login() {
         success: function (data) {
 
             data = data.replace("&&&START&&&", "")
-            console.log(data)
+            // console.log(data)
             console.log('!!! Start loading device information !!!');
 
             /*

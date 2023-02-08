@@ -1,10 +1,11 @@
-# 小米智能音响固件升级助手
+# 小爱智能音响固件升级助手
 
-- xiaomi-soundbox-update-helper-web 为升级助手前端页面。
+**本项目已停止维护，技术细节可查看使用手册。**
 
-- docs 下存放了 Xiaomi Mico 接口的有关文档。
+**该项目仅供技术学习用途，切勿用于商业用途！**
 
-## 开源和感谢
+- 网页项目文件夹：xiaomi-soundbox-firmware-upgrade-helper-web
+- Xiaomi Mico 接口的使用手册: docs/User_Manual.md
+- 网页项目以 GNU-GPL-3.0 开放源代码
+- 开源项目来自：[flying1008](https://github.com/flying1008); [flying1008.top](http://flying1008.top)
 
-- 本网页以 GNU-GPL-3.0 开放源代码
-- 部分算法来自 [flying1008](https://github.com/flying1008)

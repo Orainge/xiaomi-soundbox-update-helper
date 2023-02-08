@@ -21,7 +21,7 @@
 		"hardware": "X08A",
 		"type": "测试版整包",
 		"version": "2.0.9",
-		"link": "https://cdn.cnbj1.fds.api.mi-img.com/xiaoqiang/rom/x08a/payload_2.0.9_14ece.bin",
+		"link": "https://cdn.cnbj1.fds.api.HUmi-img.com/xiaoqiang/rom/x08a/payload_2.0.9_14ece.bin",
 		"extra": "{\"FILE_HASH\":\"94EuyNSN7hkpZcJ/NgDz3KBOouKHu3jRMxOmDAe9O2c=\",\"FILE_SIZE\":\"776983315\",\"METADATA_HASH\":\"AZpHsluj7o2pbpwPVZF4l3JzTu3AMxohw0ayppMDem8=\",\"METADATA_SIZE\":\"72430\"}",
 		"hash": "148cbd252ee69608f20bb03835f14ece"
 	},

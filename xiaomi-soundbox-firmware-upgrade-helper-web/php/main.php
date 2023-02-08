@@ -62,7 +62,7 @@ function login_miai($url, $clientSign) {
 	$output = curl_exec($ch); 
 	$outhead=curl_getinfo($ch);
 	curl_close($ch);      
-	preg_match('/serviceToken=(.*?);/', $output, $matches, PREG_OFFSET_CAPTURE);
+	preg_match('/serviceToken=(.*?);/', $output, $mserviceLoginAuth2atches, PREG_OFFSET_CAPTURE);
 	if (!isset($matches[1])) {
 		echo $output;
 		return '';	
